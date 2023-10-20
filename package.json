@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node --transpile-only src/core/domain/Entity.ts",
-    "start": "node dist/app.js"
+    "dev": "ts-node --transpile-only src/app.ts",
+    "start": "node dist/app.js",
+    "dependeciesUpdateCheck": "npm outdated",
+    "dependeciesUpdate": "npm update"
   },
   "repository": {
     "type": "git",
